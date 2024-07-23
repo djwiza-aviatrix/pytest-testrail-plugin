@@ -1,0 +1,223 @@
+************* Module Command line
+Command line:1: [W0012(unknown-option-value), ] Unknown option value for '--disable', expected a valid pylint message and got 'warnings'
+************* Module pytest_testrail.conftest
+pytest_testrail/conftest.py:24: [C0301(line-too-long), ] Line too long (115/100)
+pytest_testrail/conftest.py:28: [C0301(line-too-long), ] Line too long (115/100)
+pytest_testrail/conftest.py:36: [C0301(line-too-long), ] Line too long (102/100)
+pytest_testrail/conftest.py:44: [C0301(line-too-long), ] Line too long (103/100)
+pytest_testrail/conftest.py:52: [C0301(line-too-long), ] Line too long (105/100)
+pytest_testrail/conftest.py:63: [C0301(line-too-long), ] Line too long (102/100)
+pytest_testrail/conftest.py:68: [C0301(line-too-long), ] Line too long (116/100)
+pytest_testrail/conftest.py:80: [C0301(line-too-long), ] Line too long (106/100)
+pytest_testrail/conftest.py:114: [C0301(line-too-long), ] Line too long (113/100)
+pytest_testrail/conftest.py:138: [C0301(line-too-long), ] Line too long (112/100)
+pytest_testrail/conftest.py:139: [C0301(line-too-long), ] Line too long (102/100)
+pytest_testrail/conftest.py:141: [C0301(line-too-long), ] Line too long (110/100)
+pytest_testrail/conftest.py:143: [C0301(line-too-long), ] Line too long (117/100)
+pytest_testrail/conftest.py:146: [C0301(line-too-long), ] Line too long (108/100)
+pytest_testrail/conftest.py:154: [C0301(line-too-long), ] Line too long (106/100)
+pytest_testrail/conftest.py:167: [C0301(line-too-long), ] Line too long (103/100)
+pytest_testrail/conftest.py:193: [C0301(line-too-long), ] Line too long (115/100)
+pytest_testrail/conftest.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+pytest_testrail/conftest.py:14: [C0116(missing-function-docstring), pytest_addoption] Missing function or method docstring
+pytest_testrail/conftest.py:126: [C0116(missing-function-docstring), pytest_configure] Missing function or method docstring
+pytest_testrail/conftest.py:161: [C0115(missing-class-docstring), ConfigManager] Missing class docstring
+pytest_testrail/conftest.py:161: [R0205(useless-object-inheritance), ConfigManager] Class 'ConfigManager' inherits from object, can be safely removed from bases in python3
+pytest_testrail/conftest.py:179: [C0116(missing-function-docstring), ConfigManager.getoption] Missing function or method docstring
+pytest_testrail/conftest.py:179: [R0913(too-many-arguments), ConfigManager.getoption] Too many arguments (6/5)
+pytest_testrail/conftest.py:183: [C0209(consider-using-f-string), ConfigManager.getoption] Formatting a regular string which could be an f-string
+pytest_testrail/conftest.py:191: [R1705(no-else-return), ConfigManager.getoption] Unnecessary "else" after "return", remove the "else" and de-indent the code inside it
+pytest_testrail/conftest.py:161: [R0903(too-few-public-methods), ConfigManager] Too few public methods (1/2)
+************* Module pytest_testrail.plugin
+pytest_testrail/plugin.py:48: [C0301(line-too-long), ] Line too long (119/100)
+pytest_testrail/plugin.py:83: [C0301(line-too-long), ] Line too long (116/100)
+pytest_testrail/plugin.py:112: [C0301(line-too-long), ] Line too long (111/100)
+pytest_testrail/plugin.py:122: [C0301(line-too-long), ] Line too long (113/100)
+pytest_testrail/plugin.py:142: [C0301(line-too-long), ] Line too long (102/100)
+pytest_testrail/plugin.py:230: [C0301(line-too-long), ] Line too long (118/100)
+pytest_testrail/plugin.py:253: [C0301(line-too-long), ] Line too long (119/100)
+pytest_testrail/plugin.py:267: [C0301(line-too-long), ] Line too long (104/100)
+pytest_testrail/plugin.py:310: [C0301(line-too-long), ] Line too long (101/100)
+pytest_testrail/plugin.py:316: [C0301(line-too-long), ] Line too long (114/100)
+pytest_testrail/plugin.py:317: [C0301(line-too-long), ] Line too long (113/100)
+pytest_testrail/plugin.py:321: [C0301(line-too-long), ] Line too long (119/100)
+pytest_testrail/plugin.py:326: [C0301(line-too-long), ] Line too long (114/100)
+pytest_testrail/plugin.py:340: [C0301(line-too-long), ] Line too long (114/100)
+pytest_testrail/plugin.py:341: [C0301(line-too-long), ] Line too long (135/100)
+pytest_testrail/plugin.py:345: [C0301(line-too-long), ] Line too long (114/100)
+pytest_testrail/plugin.py:346: [C0301(line-too-long), ] Line too long (135/100)
+pytest_testrail/plugin.py:351: [C0301(line-too-long), ] Line too long (116/100)
+pytest_testrail/plugin.py:362: [C0301(line-too-long), ] Line too long (113/100)
+pytest_testrail/plugin.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+pytest_testrail/plugin.py:39: [C0115(missing-class-docstring), DeprecatedTestDecorator] Missing class docstring
+pytest_testrail/plugin.py:46: [C0103(invalid-name), pytestrail] Class name "pytestrail" doesn't conform to PascalCase naming style
+pytest_testrail/plugin.py:46: [R0205(useless-object-inheritance), pytestrail] Class 'pytestrail' inherits from object, can be safely removed from bases in python3
+pytest_testrail/plugin.py:102: [C0209(consider-using-f-string), testrun_name] Formatting a regular string which could be an f-string
+pytest_testrail/plugin.py:141: [C0115(missing-class-docstring), PyTestRailPlugin] Missing class docstring
+pytest_testrail/plugin.py:141: [R0205(useless-object-inheritance), PyTestRailPlugin] Class 'PyTestRailPlugin' inherits from object, can be safely removed from bases in python3
+pytest_testrail/plugin.py:141: [R0902(too-many-instance-attributes), PyTestRailPlugin] Too many instance attributes (17/7)
+pytest_testrail/plugin.py:142: [R0913(too-many-arguments), PyTestRailPlugin.__init__] Too many arguments (17/5)
+pytest_testrail/plugin.py:142: [R0914(too-many-locals), PyTestRailPlugin.__init__] Too many local variables (17/15)
+pytest_testrail/plugin.py:169: [C0209(consider-using-f-string), PyTestRailPlugin.pytest_report_header] Formatting a regular string which could be an f-string
+pytest_testrail/plugin.py:171: [C0209(consider-using-f-string), PyTestRailPlugin.pytest_report_header] Formatting a regular string which could be an f-string
+pytest_testrail/plugin.py:165: [W0613(unused-argument), PyTestRailPlugin.pytest_report_header] Unused argument 'config'
+pytest_testrail/plugin.py:165: [W0613(unused-argument), PyTestRailPlugin.pytest_report_header] Unused argument 'startdir'
+pytest_testrail/plugin.py:177: [C0116(missing-function-docstring), PyTestRailPlugin.pytest_collection_modifyitems] Missing function or method docstring
+pytest_testrail/plugin.py:177: [W0613(unused-argument), PyTestRailPlugin.pytest_collection_modifyitems] Unused argument 'session'
+pytest_testrail/plugin.py:177: [W0613(unused-argument), PyTestRailPlugin.pytest_collection_modifyitems] Unused argument 'config'
+pytest_testrail/plugin.py:209: [W0613(unused-argument), PyTestRailPlugin.pytest_runtest_makereport] Unused argument 'call'
+pytest_testrail/plugin.py:244: [C0209(consider-using-f-string), PyTestRailPlugin.pytest_sessionfinish] Formatting a regular string which could be an f-string
+pytest_testrail/plugin.py:247: [C0209(consider-using-f-string), PyTestRailPlugin.pytest_sessionfinish] Formatting a regular string which could be an f-string
+pytest_testrail/plugin.py:253: [C0209(consider-using-f-string), PyTestRailPlugin.pytest_sessionfinish] Formatting a regular string which could be an f-string
+pytest_testrail/plugin.py:257: [C0209(consider-using-f-string), PyTestRailPlugin.pytest_sessionfinish] Formatting a regular string which could be an f-string
+pytest_testrail/plugin.py:263: [C0209(consider-using-f-string), PyTestRailPlugin.pytest_sessionfinish] Formatting a regular string which could be an f-string
+pytest_testrail/plugin.py:242: [W0613(unused-argument), PyTestRailPlugin.pytest_sessionfinish] Unused argument 'session'
+pytest_testrail/plugin.py:242: [W0613(unused-argument), PyTestRailPlugin.pytest_sessionfinish] Unused argument 'exitstatus'
+pytest_testrail/plugin.py:267: [R0913(too-many-arguments), PyTestRailPlugin.add_result] Too many arguments (7/5)
+pytest_testrail/plugin.py:300: [C3001(unnecessary-lambda-assignment), PyTestRailPlugin.add_results.<lambda>] Lambda expression assigned to a variable. Define a function using the "def" keyword instead.
+pytest_testrail/plugin.py:310: [C0209(consider-using-f-string), PyTestRailPlugin.add_results] Formatting a regular string which could be an f-string
+pytest_testrail/plugin.py:315: [C0209(consider-using-f-string), PyTestRailPlugin.add_results] Formatting a regular string which could be an f-string
+pytest_testrail/plugin.py:321: [C0209(consider-using-f-string), PyTestRailPlugin.add_results] Formatting a regular string which could be an f-string
+pytest_testrail/plugin.py:331: [W1406(redundant-u-string-prefix), ] The u prefix for strings is no longer necessary in Python >=3.0
+pytest_testrail/plugin.py:333: [W1406(redundant-u-string-prefix), ] The u prefix for strings is no longer necessary in Python >=3.0
+pytest_testrail/plugin.py:334: [W1406(redundant-u-string-prefix), ] The u prefix for strings is no longer necessary in Python >=3.0
+pytest_testrail/plugin.py:339: [W1406(redundant-u-string-prefix), ] The u prefix for strings is no longer necessary in Python >=3.0
+pytest_testrail/plugin.py:340: [W1406(redundant-u-string-prefix), ] The u prefix for strings is no longer necessary in Python >=3.0
+pytest_testrail/plugin.py:340: [W1406(redundant-u-string-prefix), ] The u prefix for strings is no longer necessary in Python >=3.0
+pytest_testrail/plugin.py:341: [W1406(redundant-u-string-prefix), ] The u prefix for strings is no longer necessary in Python >=3.0
+pytest_testrail/plugin.py:344: [W1406(redundant-u-string-prefix), ] The u prefix for strings is no longer necessary in Python >=3.0
+pytest_testrail/plugin.py:345: [W1406(redundant-u-string-prefix), ] The u prefix for strings is no longer necessary in Python >=3.0
+pytest_testrail/plugin.py:345: [W1406(redundant-u-string-prefix), ] The u prefix for strings is no longer necessary in Python >=3.0
+pytest_testrail/plugin.py:346: [W1406(redundant-u-string-prefix), ] The u prefix for strings is no longer necessary in Python >=3.0
+pytest_testrail/plugin.py:362: [C0209(consider-using-f-string), PyTestRailPlugin.add_results] Formatting a regular string which could be an f-string
+pytest_testrail/plugin.py:364: [R0913(too-many-arguments), PyTestRailPlugin.create_test_run] Too many arguments (9/5)
+pytest_testrail/plugin.py:365: [W0621(redefined-outer-name), PyTestRailPlugin.create_test_run] Redefining name 'testrun_name' from outer scope (line 99)
+pytest_testrail/plugin.py:388: [C0209(consider-using-f-string), PyTestRailPlugin.create_test_run] Formatting a regular string which could be an f-string
+pytest_testrail/plugin.py:391: [C0209(consider-using-f-string), PyTestRailPlugin.create_test_run] Formatting a regular string which could be an f-string
+pytest_testrail/plugin.py:407: [C0209(consider-using-f-string), PyTestRailPlugin.close_test_run] Formatting a regular string which could be an f-string
+pytest_testrail/plugin.py:409: [C0209(consider-using-f-string), PyTestRailPlugin.close_test_run] Formatting a regular string which could be an f-string
+pytest_testrail/plugin.py:423: [C0209(consider-using-f-string), PyTestRailPlugin.close_test_plan] Formatting a regular string which could be an f-string
+pytest_testrail/plugin.py:425: [C0209(consider-using-f-string), PyTestRailPlugin.close_test_plan] Formatting a regular string which could be an f-string
+pytest_testrail/plugin.py:439: [C0209(consider-using-f-string), PyTestRailPlugin.is_testrun_available] Formatting a regular string which could be an f-string
+pytest_testrail/plugin.py:456: [C0209(consider-using-f-string), PyTestRailPlugin.is_testplan_available] Formatting a regular string which could be an f-string
+pytest_testrail/plugin.py:473: [C0209(consider-using-f-string), PyTestRailPlugin.get_available_testruns] Formatting a regular string which could be an f-string
+pytest_testrail/plugin.py:492: [C0209(consider-using-f-string), PyTestRailPlugin.get_tests] Formatting a regular string which could be an f-string
+pytest_testrail/plugin.py:6: [C0411(wrong-import-order), ] standard import "re" should be placed before third party import "pytest"
+pytest_testrail/plugin.py:7: [C0411(wrong-import-order), ] standard import "warnings" should be placed before third party import "pytest"
+************* Module pytest_testrail.testrail_api
+pytest_testrail/testrail_api.py:29: [C0301(line-too-long), ] Line too long (115/100)
+pytest_testrail/testrail_api.py:38: [C0301(line-too-long), ] Line too long (116/100)
+pytest_testrail/testrail_api.py:39: [C0301(line-too-long), ] Line too long (114/100)
+pytest_testrail/testrail_api.py:41: [C0301(line-too-long), ] Line too long (117/100)
+pytest_testrail/testrail_api.py:64: [C0301(line-too-long), ] Line too long (116/100)
+pytest_testrail/testrail_api.py:65: [C0301(line-too-long), ] Line too long (114/100)
+pytest_testrail/testrail_api.py:67: [C0301(line-too-long), ] Line too long (117/100)
+pytest_testrail/testrail_api.py:102: [C0301(line-too-long), ] Line too long (116/100)
+pytest_testrail/testrail_api.py:103: [C0301(line-too-long), ] Line too long (114/100)
+pytest_testrail/testrail_api.py:105: [C0301(line-too-long), ] Line too long (117/100)
+pytest_testrail/testrail_api.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+pytest_testrail/testrail_api.py:19: [E0401(import-error), ] Unable to import 'urlparse'
+pytest_testrail/testrail_api.py:24: [C0115(missing-class-docstring), APIClient] Missing class docstring
+pytest_testrail/testrail_api.py:52: [W0125(using-constant-test), APIClient.__init__] Using a conditional statement with a constant value
+pytest_testrail/testrail_api.py:82: [R1705(no-else-return), APIClient.send_get] Unnecessary "else" after "return", remove the "else" and de-indent the code inside it
+pytest_testrail/testrail_api.py:84: [C0209(consider-using-f-string), APIClient.send_get] Formatting a regular string which could be an f-string
+pytest_testrail/testrail_api.py:121: [R1705(no-else-return), APIClient.send_post] Unnecessary "else" after "return", remove the "else" and de-indent the code inside it
+pytest_testrail/testrail_api.py:123: [C0209(consider-using-f-string), APIClient.send_post] Formatting a regular string which could be an f-string
+pytest_testrail/testrail_api.py:130: [R1710(inconsistent-return-statements), APIClient.get_error] Either all return statements in a function should return an expression, or none of them should.
+pytest_testrail/testrail_api.py:16: [C0411(wrong-import-order), ] standard import "time" should be placed before third party import "requests"
+************* Module setup
+setup.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+setup.py:1: [E0401(import-error), ] Unable to import 'setuptools'
+setup.py:4: [C0116(missing-function-docstring), read_file] Missing function or method docstring
+setup.py:5: [W1514(unspecified-encoding), read_file] Using open without explicitly specifying an encoding
+************* Module conftest
+tests/livetest/conftest.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+tests/livetest/conftest.py:6: [W0401(wildcard-import), ] Wildcard import pytest_testrail.conftest
+tests/livetest/conftest.py:6: [C0413(wrong-import-position), ] Import "from pytest_testrail.conftest import *" should be placed at the top of the module
+tests/livetest/conftest.py:6: [W0614(unused-wildcard-import), ] Unused import(s) configparser, pytest_addoption, pytest_configure, ConfigManager, PyTestRailPlugin and APIClient from wildcard import of pytest_testrail.conftest
+************* Module livetest
+tests/livetest/livetest.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+tests/livetest/livetest.py:9: [C0116(missing-function-docstring), test_func1] Missing function or method docstring
+tests/livetest/livetest.py:14: [C0116(missing-function-docstring), test_func2] Missing function or method docstring
+tests/livetest/livetest.py:20: [C0116(missing-function-docstring), test_func3] Missing function or method docstring
+tests/livetest/livetest.py:25: [C0116(missing-function-docstring), test_func4] Missing function or method docstring
+tests/livetest/livetest.py:30: [C0116(missing-function-docstring), test_func5] Missing function or method docstring
+tests/livetest/livetest.py:3: [C0411(wrong-import-order), ] standard import "time" should be placed before third party import "pytest"
+************* Module tests.test_plugin
+tests/test_plugin.py:70: [C0301(line-too-long), ] Line too long (112/100)
+tests/test_plugin.py:71: [C0301(line-too-long), ] Line too long (104/100)
+tests/test_plugin.py:132: [C0301(line-too-long), ] Line too long (107/100)
+tests/test_plugin.py:178: [C0301(line-too-long), ] Line too long (108/100)
+tests/test_plugin.py:223: [C0301(line-too-long), ] Line too long (108/100)
+tests/test_plugin.py:236: [C0301(line-too-long), ] Line too long (103/100)
+tests/test_plugin.py:273: [C0301(line-too-long), ] Line too long (111/100)
+tests/test_plugin.py:327: [C0301(line-too-long), ] Line too long (104/100)
+tests/test_plugin.py:335: [C0301(line-too-long), ] Line too long (103/100)
+tests/test_plugin.py:354: [C0301(line-too-long), ] Line too long (103/100)
+tests/test_plugin.py:369: [C0301(line-too-long), ] Line too long (104/100)
+tests/test_plugin.py:1: [C0114(missing-module-docstring), ] Missing module docstring
+tests/test_plugin.py:10: [C0103(invalid-name), ] Constant name "pytest_plugins" doesn't conform to UPPER_CASE naming style
+tests/test_plugin.py:62: [C0116(missing-function-docstring), api_client] Missing function or method docstring
+tests/test_plugin.py:69: [C0116(missing-function-docstring), tr_plugin] Missing function or method docstring
+tests/test_plugin.py:69: [W0621(redefined-outer-name), tr_plugin] Redefining name 'api_client' from outer scope (line 62)
+tests/test_plugin.py:75: [C0116(missing-function-docstring), pytest_test_items] Missing function or method docstring
+tests/test_plugin.py:81: [C0116(missing-function-docstring), test_testrun_name] Missing function or method docstring
+tests/test_plugin.py:82: [C0209(consider-using-f-string), test_testrun_name] Formatting a regular string which could be an f-string
+tests/test_plugin.py:85: [C0116(missing-function-docstring), test_failed_outcome] Missing function or method docstring
+tests/test_plugin.py:85: [W0621(redefined-outer-name), test_failed_outcome] Redefining name 'tr_plugin' from outer scope (line 69)
+tests/test_plugin.py:85: [W0613(unused-argument), test_failed_outcome] Unused argument 'tr_plugin'
+tests/test_plugin.py:89: [C0116(missing-function-docstring), test_successful_outcome] Missing function or method docstring
+tests/test_plugin.py:89: [W0621(redefined-outer-name), test_successful_outcome] Redefining name 'tr_plugin' from outer scope (line 69)
+tests/test_plugin.py:89: [W0613(unused-argument), test_successful_outcome] Unused argument 'tr_plugin'
+tests/test_plugin.py:94: [C0116(missing-function-docstring), test_clean_test_ids] Missing function or method docstring
+tests/test_plugin.py:98: [C0116(missing-function-docstring), test_get_testrail_keys] Missing function or method docstring
+tests/test_plugin.py:98: [W0621(redefined-outer-name), test_get_testrail_keys] Redefining name 'pytest_test_items' from outer scope (line 75)
+tests/test_plugin.py:98: [W0613(unused-argument), test_get_testrail_keys] Unused argument 'testdir'
+tests/test_plugin.py:104: [C0116(missing-function-docstring), test_add_result] Missing function or method docstring
+tests/test_plugin.py:104: [W0621(redefined-outer-name), test_add_result] Redefining name 'tr_plugin' from outer scope (line 69)
+tests/test_plugin.py:130: [C0116(missing-function-docstring), test_pytest_runtest_makereport] Missing function or method docstring
+tests/test_plugin.py:130: [W0621(redefined-outer-name), test_pytest_runtest_makereport] Redefining name 'pytest_test_items' from outer scope (line 75)
+tests/test_plugin.py:130: [W0621(redefined-outer-name), test_pytest_runtest_makereport] Redefining name 'tr_plugin' from outer scope (line 69)
+tests/test_plugin.py:134: [C0115(missing-class-docstring), test_pytest_runtest_makereport.Outcome] Missing class docstring
+tests/test_plugin.py:143: [C0116(missing-function-docstring), test_pytest_runtest_makereport.Outcome.get_result] Missing function or method docstring
+tests/test_plugin.py:134: [R0903(too-few-public-methods), test_pytest_runtest_makereport.Outcome] Too few public methods (1/2)
+tests/test_plugin.py:176: [C0116(missing-function-docstring), test_pytest_sessionfinish] Missing function or method docstring
+tests/test_plugin.py:176: [W0621(redefined-outer-name), test_pytest_sessionfinish] Redefining name 'api_client' from outer scope (line 62)
+tests/test_plugin.py:176: [W0621(redefined-outer-name), test_pytest_sessionfinish] Redefining name 'tr_plugin' from outer scope (line 69)
+tests/test_plugin.py:220: [C0209(consider-using-f-string), test_pytest_sessionfinish] Formatting a regular string which could be an f-string
+tests/test_plugin.py:220: [W1406(redundant-u-string-prefix), ] The u prefix for strings is no longer necessary in Python >=3.0
+tests/test_plugin.py:227: [C0116(missing-function-docstring), test_pytest_sessionfinish_testplan] Missing function or method docstring
+tests/test_plugin.py:227: [W0621(redefined-outer-name), test_pytest_sessionfinish_testplan] Redefining name 'api_client' from outer scope (line 62)
+tests/test_plugin.py:227: [W0621(redefined-outer-name), test_pytest_sessionfinish_testplan] Redefining name 'tr_plugin' from outer scope (line 69)
+tests/test_plugin.py:258: [C0209(consider-using-f-string), test_pytest_sessionfinish_testplan] Formatting a regular string which could be an f-string
+tests/test_plugin.py:258: [W1406(redundant-u-string-prefix), ] The u prefix for strings is no longer necessary in Python >=3.0
+tests/test_plugin.py:269: [C0116(missing-function-docstring), test_create_test_run] Missing function or method docstring
+tests/test_plugin.py:269: [W0621(redefined-outer-name), test_create_test_run] Redefining name 'api_client' from outer scope (line 62)
+tests/test_plugin.py:269: [W0621(redefined-outer-name), test_create_test_run] Redefining name 'tr_plugin' from outer scope (line 69)
+tests/test_plugin.py:290: [W0621(redefined-outer-name), test_is_testrun_available] Redefining name 'api_client' from outer scope (line 62)
+tests/test_plugin.py:290: [W0621(redefined-outer-name), test_is_testrun_available] Redefining name 'tr_plugin' from outer scope (line 69)
+tests/test_plugin.py:304: [W0621(redefined-outer-name), test_is_testplan_available] Redefining name 'api_client' from outer scope (line 62)
+tests/test_plugin.py:304: [W0621(redefined-outer-name), test_is_testplan_available] Redefining name 'tr_plugin' from outer scope (line 69)
+tests/test_plugin.py:318: [W0621(redefined-outer-name), test_get_available_testruns] Redefining name 'api_client' from outer scope (line 62)
+tests/test_plugin.py:318: [W0621(redefined-outer-name), test_get_available_testruns] Redefining name 'tr_plugin' from outer scope (line 69)
+tests/test_plugin.py:325: [C0116(missing-function-docstring), test_close_test_run] Missing function or method docstring
+tests/test_plugin.py:325: [W0621(redefined-outer-name), test_close_test_run] Redefining name 'api_client' from outer scope (line 62)
+tests/test_plugin.py:325: [W0621(redefined-outer-name), test_close_test_run] Redefining name 'tr_plugin' from outer scope (line 69)
+tests/test_plugin.py:345: [C0116(missing-function-docstring), test_close_test_plan] Missing function or method docstring
+tests/test_plugin.py:345: [W0621(redefined-outer-name), test_close_test_plan] Redefining name 'api_client' from outer scope (line 62)
+tests/test_plugin.py:345: [W0621(redefined-outer-name), test_close_test_plan] Redefining name 'tr_plugin' from outer scope (line 69)
+tests/test_plugin.py:367: [W0621(redefined-outer-name), test_dont_publish_blocked] Redefining name 'api_client' from outer scope (line 62)
+tests/test_plugin.py:398: [W0106(expression-not-assigned), test_dont_publish_blocked] Expression "len(api_client.send_post.call_args_list) == 1" is assigned to nothing
+tests/test_plugin.py:399: [W0106(expression-not-assigned), test_dont_publish_blocked] Expression "api_client.send_post.call_args_list[0] == call(expected_uri, expected_data, cert_check=True)" is assigned to nothing
+tests/test_plugin.py:402: [C0116(missing-function-docstring), test_skip_missing_only_one_test] Missing function or method docstring
+tests/test_plugin.py:402: [W0621(redefined-outer-name), test_skip_missing_only_one_test] Redefining name 'api_client' from outer scope (line 62)
+tests/test_plugin.py:402: [W0621(redefined-outer-name), test_skip_missing_only_one_test] Redefining name 'pytest_test_items' from outer scope (line 75)
+tests/test_plugin.py:421: [C0116(missing-function-docstring), test_skip_missing_correlation_tests] Missing function or method docstring
+tests/test_plugin.py:421: [W0621(redefined-outer-name), test_skip_missing_correlation_tests] Redefining name 'api_client' from outer scope (line 62)
+tests/test_plugin.py:421: [W0621(redefined-outer-name), test_skip_missing_correlation_tests] Redefining name 'pytest_test_items' from outer scope (line 75)
+tests/test_plugin.py:440: [C0116(missing-function-docstring), test_api_client_timeout] Missing function or method docstring
+tests/test_plugin.py:440: [W0621(redefined-outer-name), test_api_client_timeout] Redefining name 'api_client' from outer scope (line 62)
+
+------------------------------------------------------------------
+Your code has been rated at 5.67/10 (previous run: 5.67/10, +0.00)
+
