@@ -235,7 +235,7 @@ class PyTestRailPlugin(object):
         else:
             logging.error("GITHUB_ENV environment variable is not set")
 
-    def get_client(self) -> jira.JIRA:
+    def get_jira_client(self) -> jira.JIRA:
         user = self.jira_username
         token = self.jira_token
         jira_client = None
@@ -386,12 +386,12 @@ class PyTestRailPlugin(object):
 
     def jira(self, outcome: str) -> str:
         try:
-            client = self.get_client()
+            client = self.get_jira_client()
             username = self.jira_owner
             testname = self.test_dirs
             regex = re.compile(r"[^a-zA-Z0-9_]+")  # Expecting only letters and numbers
-            logger.info("username" + username)
-            logger.info("testname" + testname)
+            assert client is not None
+            assert username is not None
             self.issue_id = self.handle_ci_notifications(
                 client, username, testname, outcome, self.github_commit_sha
             )
