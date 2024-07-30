@@ -519,7 +519,7 @@ class PyTestRailPlugin(object):
             )
         )
         if self.testrun_id:
-            self.add_results(self.testrun_id)
+            self.add_results(session, self.testrun_id)
         elif self.testplan_id:
             testruns = self.get_available_testruns(
                 self.testplan_id, github_run_id=self.github_run_id
@@ -584,7 +584,7 @@ class PyTestRailPlugin(object):
             }
             self.results.append(data)
 
-    def add_results(self, testrun_id):
+    def add_results(self, session, testrun_id):
         """
         Add results one by one to improve errors handling.
 
