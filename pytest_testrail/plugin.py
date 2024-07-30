@@ -699,6 +699,11 @@ class PyTestRailPlugin(object):
                 )
             )
 
+            # Exit with a nonzero exit code to express that an error occurred
+            # during results publishing. The GitHub Actions runners need to be
+            # aware of it.
+            session.exitcode = pytest.ExitCode.INTERNAL_ERROR
+
     def create_test_run(
         self,
         assign_user_id,
