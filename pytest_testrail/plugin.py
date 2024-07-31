@@ -519,7 +519,7 @@ class PyTestRailPlugin(object):
             )
         )
         if self.testrun_id:
-            self.add_results(session, self.testrun_id)
+            self.add_results(self.testrun_id)
         elif self.testplan_id:
             testruns = self.get_available_testruns(
                 self.testplan_id, github_run_id=self.github_run_id
@@ -584,7 +584,7 @@ class PyTestRailPlugin(object):
             }
             self.results.append(data)
 
-    def add_results(self, session, testrun_id):
+    def add_results(self, testrun_id):
         """
         Add results one by one to improve errors handling.
 
@@ -693,16 +693,7 @@ class PyTestRailPlugin(object):
         )
         error = self.client.get_error(response)
         if error:
-            logger.warning(
-                '[{}] Info: Testcases not published for following reason: "{}"'.format(
-                    TESTRAIL_PREFIX, error
-                )
-            )
-
-            # Exit with a nonzero exit code to express that an error occurred
-            # during results publishing. The GitHub Actions runners need to be
-            # aware of it.
-            session.exitcode = pytest.ExitCode.INTERNAL_ERROR
+            raise Exception('Test cases not published for reason: "{}"'.format(error))
 
     def create_test_run(
         self,
