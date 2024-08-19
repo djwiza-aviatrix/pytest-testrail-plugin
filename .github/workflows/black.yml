@@ -13,7 +13,7 @@ jobs:
 
       - name: Get changed files
         id: changed-files
-        uses: tj-actions/changed-files@a0585ff9904b77d046192a7846e59783d6ea287b
+        uses: tj-actions/changed-files@44
         with:
           files: "**/*.py"
 
